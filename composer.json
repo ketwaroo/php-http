@@ -1,0 +1,20 @@
+{
+    "name": "ketwaroo/php-http",
+    "version": "0.1.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yaasir Ketwaroo",
+            "email": "ketwaroo.yaasir@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Ketwaroo\\Http": "src/"
+        }
+    },
+    "require-dev": {
+        "ketwaroo/debug-helper": "dev-master",
+        "psr/http-message": "1.0"
+    }
+}
